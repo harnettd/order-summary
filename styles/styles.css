@@ -17,7 +17,7 @@ body {
 
 main .card {
   background-color: hsl(0deg, 0%, 100%);
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   margin: 4.375rem auto;
   overflow: hidden;
   width: 20.375rem;
@@ -27,7 +27,7 @@ main .card .image-area .image-hero {
 }
 main .card .text-area {
   box-sizing: border-box;
-  padding: 2rem 1rem;
+  padding: 1.625rem 1.5rem;
 }
 main .card .text-area .card-heading {
   color: hsl(223deg, 47%, 23%);
@@ -38,7 +38,7 @@ main .card .text-area .card-main-text {
   color: hsl(224deg, 23%, 55%);
   font-weight: 500;
   line-height: 1.5;
-  margin-bottom: 1rem;
+  margin-bottom: 1.625rem;
 }
 main .card .text-area .cost-row {
   background-color: hsl(225deg, 100%, 98%);
@@ -46,9 +46,8 @@ main .card .text-area .cost-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  margin-bottom: 24px;
+  padding: 14px 16px;
 }
 main .card .text-area .cost-row .plan {
   color: hsl(223deg, 47%, 23%);
@@ -67,7 +66,7 @@ main .card .text-area .cost-row .change-plan:hover {
 }
 main .card .text-area .btn {
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   font-weight: 700;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -86,6 +85,7 @@ main .card .text-area .payment-btn:hover {
 main .card .text-area .cancel-btn {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(224deg, 23%, 55%);
+  margin-bottom: 12px;
 }
 main .card .text-area .cancel-btn:hover {
   color: hsl(223deg, 47%, 23%);

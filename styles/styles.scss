@@ -21,7 +21,7 @@ main {
 
   .card {
     background-color: $white;
-    border-radius: 1rem;
+    border-radius: 1.25rem;
     margin: 4.375rem auto;
     overflow: hidden;
     width: 20.375rem;
@@ -35,7 +35,7 @@ main {
 
     .text-area {
       box-sizing: border-box;
-      padding: 2rem 1rem;
+      padding: 1.625rem 1.5rem;
 
       .card-heading {
         color: $dark-blue;
@@ -47,7 +47,7 @@ main {
         color: $desaturated-blue;
         font-weight: 500;
         line-height: 1.5;
-        margin-bottom: 1rem;
+        margin-bottom: 1.625rem;
       }
 
       .cost-row {
@@ -56,9 +56,8 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-bottom: 1rem;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
+        margin-bottom: 24px;
+        padding: 14px 16px;
 
         .plan {
           color: $dark-blue;
@@ -82,7 +81,7 @@ main {
 
       .btn {
         border: none;
-        border-radius: 1rem;
+        border-radius: 0.75rem;
         font-weight: 700;
         padding-bottom: 1rem;
         padding-top: 1rem;
@@ -104,6 +103,7 @@ main {
       .cancel-btn {
         background-color: $white;
         color: $desaturated-blue;
+        margin-bottom: 12px;
       }
 
       .cancel-btn:hover {

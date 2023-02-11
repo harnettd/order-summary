@@ -7,53 +7,89 @@ html {
 }
 
 body {
-  align-content: center;
   background-color: hsl(225deg, 100%, 94%);
-  display: flex;
-  flex-direction: column;
   font-family: "Red Hat Display", sans-serif;
   justify-content: center;
   margin: 0;
-  min-height: 100vh;
-  padding: 0;
   text-align: center;
-  width: 100%;
+  padding: 0;
 }
 
 main .card {
-  background-color: hsl(225deg, 100%, 98%);
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  margin: 4.375rem auto;
+  overflow: hidden;
+  width: 20.375rem;
 }
-main .card .card-heading {
-  color: hsl(223deg, 47%, 23%);
-  font-weight: 900;
-}
-main .card .card-main-text {
-  color: hsl(224deg, 23%, 55%);
-  font-weight: 500;
-}
-main .card .plan {
-  color: hsl(223deg, 47%, 23%);
-  font-weight: 700;
-}
-main .card .cost {
-  color: hsl(224deg, 23%, 55%);
-  font-weight: 500;
-}
-main .card .change-plan {
-  font-weight: 500;
-}
-main .card .btn {
-  border: none;
-  font-weight: 700;
+main .card .image-area .image-hero {
   width: 100%;
 }
-main .card .payment-btn {
-  background-color: hsl(245deg, 75%, 52%);
-  color: hsl(225deg, 100%, 98%);
+main .card .text-area {
+  box-sizing: border-box;
+  padding: 2rem 1rem;
 }
-main .card .cancel-btn {
-  background-color: hsl(225deg, 100%, 98%);
+main .card .text-area .card-heading {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+main .card .text-area .card-main-text {
   color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+main .card .text-area .cost-row {
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+main .card .text-area .cost-row .plan {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 700;
+}
+main .card .text-area .cost-row .cost {
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+}
+main .card .text-area .cost-row .change-plan {
+  font-weight: 500;
+}
+main .card .text-area .cost-row .change-plan:hover {
+  color: hsl(224deg, 23%, 55%);
+  text-decoration: none;
+}
+main .card .text-area .btn {
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+}
+main .card .text-area .payment-btn {
+  background-color: hsl(245deg, 75%, 52%);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: hsl(225deg, 100%, 98%);
+  margin-bottom: 1rem;
+}
+main .card .text-area .payment-btn:hover {
+  background-color: hsl(224deg, 23%, 55%);
+  cursor: pointer;
+}
+main .card .text-area .cancel-btn {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(224deg, 23%, 55%);
+}
+main .card .text-area .cancel-btn:hover {
+  color: hsl(223deg, 47%, 23%);
+  cursor: pointer;
 }
 
 footer .attribution {

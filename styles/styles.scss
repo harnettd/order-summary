@@ -35,7 +35,7 @@ main {
 
     .text-area {
       box-sizing: border-box;
-      padding: 1.625rem 1.5rem;
+      padding: 1.625rem 1.5rem 1rem;
 
       .card-heading {
         color: $dark-blue;
@@ -96,7 +96,7 @@ main {
       .btn {
         border: none;
         border-radius: 0.75rem;
-        font-weight: 700;
+        font-weight: 900;
         padding-bottom: 1rem;
         padding-top: 1rem;
         width: 100%;
@@ -106,7 +106,7 @@ main {
         background-color: $bright-blue;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         color: $very-pale-blue;
-        margin-bottom: 1rem;
+        margin-bottom: 11px;
       }
 
       .payment-btn:hover {
@@ -117,7 +117,7 @@ main {
       .cancel-btn {
         background-color: $white;
         color: $desaturated-blue;
-        margin-bottom: 12px;
+        margin-bottom: 0;
       }
 
       .cancel-btn:hover {

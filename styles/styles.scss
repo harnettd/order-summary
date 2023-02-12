@@ -50,27 +50,41 @@ main {
         margin-bottom: 1.625rem;
       }
 
-      .cost-row {
+      .plan-row {
+        align-items: center;
         background-color: $very-pale-blue;
         border-radius: 1rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: start;
         margin-bottom: 24px;
         padding: 14px 16px;
 
-        .plan {
-          color: $dark-blue;
-          font-weight: 700;
+        .plan-col-image {
+          margin-right: 1rem;
         }
 
-        .cost {
-          color: $desaturated-blue;
-          font-weight: 500;
+        .plan-col-cost {
+          margin-right: auto;
+
+          .plan {
+            color: $dark-blue;
+            font-size: 14px;
+            font-weight: 900;
+            margin-bottom: 4px;
+          }
+
+          .cost {
+            color: $desaturated-blue;
+            font-size: 14px;
+            font-weight: 500;
+          }
         }
 
         .change-plan {
-          font-weight: 500;
+          color: $bright-blue;
+          font-size: 13px;
+          font-weight: 900;
         }
 
         .change-plan:hover {
@@ -90,7 +104,7 @@ main {
 
       .payment-btn {
         background-color: $bright-blue;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         color: $very-pale-blue;
         margin-bottom: 1rem;
       }

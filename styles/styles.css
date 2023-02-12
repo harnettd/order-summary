@@ -40,27 +40,39 @@ main .card .text-area .card-main-text {
   line-height: 1.5;
   margin-bottom: 1.625rem;
 }
-main .card .text-area .cost-row {
+main .card .text-area .plan-row {
+  align-items: center;
   background-color: hsl(225deg, 100%, 98%);
   border-radius: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: start;
   margin-bottom: 24px;
   padding: 14px 16px;
 }
-main .card .text-area .cost-row .plan {
+main .card .text-area .plan-row .plan-col-image {
+  margin-right: 1rem;
+}
+main .card .text-area .plan-row .plan-col-cost {
+  margin-right: auto;
+}
+main .card .text-area .plan-row .plan-col-cost .plan {
   color: hsl(223deg, 47%, 23%);
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 4px;
 }
-main .card .text-area .cost-row .cost {
+main .card .text-area .plan-row .plan-col-cost .cost {
   color: hsl(224deg, 23%, 55%);
+  font-size: 14px;
   font-weight: 500;
 }
-main .card .text-area .cost-row .change-plan {
-  font-weight: 500;
+main .card .text-area .plan-row .change-plan {
+  color: hsl(245deg, 75%, 52%);
+  font-size: 13px;
+  font-weight: 900;
 }
-main .card .text-area .cost-row .change-plan:hover {
+main .card .text-area .plan-row .change-plan:hover {
   color: hsl(224deg, 23%, 55%);
   text-decoration: none;
 }

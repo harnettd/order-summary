@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: hsl(225deg, 100%, 94%);
+  background-color: hsl(225, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
   justify-content: center;
   margin: 0;
@@ -16,10 +16,11 @@ body {
 }
 
 main .card {
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
   border-radius: 1.25rem;
   margin: 4.375rem auto;
   overflow: hidden;
+  position: relative;
   width: 20.375rem;
 }
 main .card .image-area .image-hero {
@@ -30,19 +31,19 @@ main .card .text-area {
   padding: 1.625rem 1.5rem 1rem;
 }
 main .card .text-area .card-heading {
-  color: hsl(223deg, 47%, 23%);
+  color: hsl(223, 47%, 23%);
   font-weight: 900;
   margin-bottom: 1rem;
 }
 main .card .text-area .card-main-text {
-  color: hsl(224deg, 23%, 55%);
+  color: hsl(224, 23%, 55%);
   font-weight: 500;
   line-height: 1.5;
   margin-bottom: 1.625rem;
 }
 main .card .text-area .plan-row {
   align-items: center;
-  background-color: hsl(225deg, 100%, 98%);
+  background-color: hsl(225, 100%, 98%);
   border-radius: 1rem;
   display: flex;
   flex-direction: row;
@@ -57,23 +58,23 @@ main .card .text-area .plan-row .plan-col-cost {
   margin-right: auto;
 }
 main .card .text-area .plan-row .plan-col-cost .plan {
-  color: hsl(223deg, 47%, 23%);
+  color: hsl(223, 47%, 23%);
   font-size: 14px;
   font-weight: 900;
   margin-bottom: 4px;
 }
 main .card .text-area .plan-row .plan-col-cost .cost {
-  color: hsl(224deg, 23%, 55%);
+  color: hsl(224, 23%, 55%);
   font-size: 14px;
   font-weight: 500;
 }
 main .card .text-area .plan-row .change-plan {
-  color: hsl(245deg, 75%, 52%);
+  color: hsl(245, 75%, 52%);
   font-size: 13px;
   font-weight: 900;
 }
 main .card .text-area .plan-row .change-plan:hover {
-  color: hsl(224deg, 23%, 55%);
+  color: hsl(224, 23%, 55%);
   text-decoration: none;
 }
 main .card .text-area .btn {
@@ -85,22 +86,24 @@ main .card .text-area .btn {
   width: 100%;
 }
 main .card .text-area .payment-btn {
-  background-color: hsl(245deg, 75%, 52%);
+  background-color: hsl(245, 75%, 52%);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: hsl(225deg, 100%, 98%);
+  color: hsl(225, 100%, 98%);
   margin-bottom: 11px;
+  position: relative;
+  z-index: 1;
 }
 main .card .text-area .payment-btn:hover {
-  background-color: hsl(224deg, 23%, 55%);
+  background-color: hsl(224, 23%, 55%);
   cursor: pointer;
 }
 main .card .text-area .cancel-btn {
-  background-color: hsl(0deg, 0%, 100%);
-  color: hsl(224deg, 23%, 55%);
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(224, 23%, 55%);
   margin-bottom: 0;
 }
 main .card .text-area .cancel-btn:hover {
-  color: hsl(223deg, 47%, 23%);
+  color: hsl(223, 47%, 23%);
   cursor: pointer;
 }
 
@@ -109,5 +112,5 @@ footer .attribution {
   text-align: center;
 }
 footer .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=styles.css.map */

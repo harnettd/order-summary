@@ -24,6 +24,7 @@ main {
     border-radius: 1.25rem;
     margin: 4.375rem auto;
     overflow: hidden;
+    position: relative;
     width: 20.375rem;
 
     .image-area {
@@ -107,6 +108,8 @@ main {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         color: $very-pale-blue;
         margin-bottom: 11px;
+        position: relative;
+        z-index: 1;
       }
 
       .payment-btn:hover {

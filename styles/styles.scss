@@ -89,7 +89,7 @@ main {
         }
 
         .change-plan:hover {
-          color: $desaturated-blue;
+          color: $bright-blue-hover;
           text-decoration: none;
         }
       }
@@ -100,6 +100,7 @@ main {
         font-weight: 900;
         padding-bottom: 1rem;
         padding-top: 1rem;
+        position: relative;
         width: 100%;
       }
 
@@ -108,12 +109,11 @@ main {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         color: $very-pale-blue;
         margin-bottom: 11px;
-        position: relative;
         z-index: 1;
       }
 
       .payment-btn:hover {
-        background-color: $desaturated-blue;
+        background-color: $bright-blue-hover;
         cursor: pointer;
       }
 

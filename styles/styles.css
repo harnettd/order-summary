@@ -74,7 +74,7 @@ main .card .text-area .plan-row .change-plan {
   font-weight: 900;
 }
 main .card .text-area .plan-row .change-plan:hover {
-  color: hsl(224, 23%, 55%);
+  color: hsl(245, 83%, 68%);
   text-decoration: none;
 }
 main .card .text-area .btn {
@@ -83,6 +83,7 @@ main .card .text-area .btn {
   font-weight: 900;
   padding-bottom: 1rem;
   padding-top: 1rem;
+  position: relative;
   width: 100%;
 }
 main .card .text-area .payment-btn {
@@ -90,11 +91,10 @@ main .card .text-area .payment-btn {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: hsl(225, 100%, 98%);
   margin-bottom: 11px;
-  position: relative;
   z-index: 1;
 }
 main .card .text-area .payment-btn:hover {
-  background-color: hsl(224, 23%, 55%);
+  background-color: hsl(245, 83%, 68%);
   cursor: pointer;
 }
 main .card .text-area .cancel-btn {

@@ -5,6 +5,7 @@ html {
 }
 
 * {
+  box-sizing: border-box;
   margin-top: 0;
 }
 
@@ -30,13 +31,13 @@ main {
     .image-area {
 
       .image-hero {
+        display: block;
         width: 100%;
       }
     }
 
     .text-area {
-      box-sizing: border-box;
-      padding: 1.625rem 1.5rem 1rem;
+      padding: 1.9rem 1.5rem 1rem;
 
       .card-heading {
         color: $dark-blue;
@@ -58,8 +59,8 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: start;
-        margin-bottom: 24px;
-        padding: 14px 16px;
+        margin-bottom: 1.5rem;
+        padding: 0.875rem 1rem;
 
         .plan-col-image {
           margin-right: 1rem;
@@ -70,22 +71,25 @@ main {
 
           .plan {
             color: $dark-blue;
-            font-size: 14px;
+            font-size: 0.875rem;
             font-weight: 900;
-            margin-bottom: 4px;
+            margin-bottom: 0.25rem;
           }
 
           .cost {
             color: $desaturated-blue;
-            font-size: 14px;
+            font-size: 0.875rem;
             font-weight: 500;
           }
         }
 
         .change-plan {
           color: $bright-blue;
-          font-size: 13px;
-          font-weight: 900;
+
+          font: {
+            size: 0.8125rem;
+            weight: 900;
+          }
         }
 
         .change-plan:hover {
@@ -97,10 +101,10 @@ main {
       .btn {
         border: none;
         border-radius: 0.75rem;
+        font-size: 0.9375rem;
         font-weight: 900;
         padding-bottom: 1rem;
         padding-top: 1rem;
-        position: relative;
         width: 100%;
       }
 
@@ -108,7 +112,8 @@ main {
         background-color: $bright-blue;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         color: $very-pale-blue;
-        margin-bottom: 11px;
+        margin-bottom: 0.625rem;
+        position: relative;
         z-index: 1;
       }
 

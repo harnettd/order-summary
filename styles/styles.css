@@ -3,6 +3,7 @@ html {
 }
 
 * {
+  box-sizing: border-box;
   margin-top: 0;
 }
 
@@ -24,11 +25,11 @@ main .card {
   width: 20.375rem;
 }
 main .card .image-area .image-hero {
+  display: block;
   width: 100%;
 }
 main .card .text-area {
-  box-sizing: border-box;
-  padding: 1.625rem 1.5rem 1rem;
+  padding: 1.9rem 1.5rem 1rem;
 }
 main .card .text-area .card-heading {
   color: hsl(223, 47%, 23%);
@@ -48,8 +49,8 @@ main .card .text-area .plan-row {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  margin-bottom: 24px;
-  padding: 14px 16px;
+  margin-bottom: 1.5rem;
+  padding: 0.875rem 1rem;
 }
 main .card .text-area .plan-row .plan-col-image {
   margin-right: 1rem;
@@ -59,18 +60,18 @@ main .card .text-area .plan-row .plan-col-cost {
 }
 main .card .text-area .plan-row .plan-col-cost .plan {
   color: hsl(223, 47%, 23%);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 900;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 main .card .text-area .plan-row .plan-col-cost .cost {
   color: hsl(224, 23%, 55%);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 main .card .text-area .plan-row .change-plan {
   color: hsl(245, 75%, 52%);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 900;
 }
 main .card .text-area .plan-row .change-plan:hover {
@@ -80,17 +81,18 @@ main .card .text-area .plan-row .change-plan:hover {
 main .card .text-area .btn {
   border: none;
   border-radius: 0.75rem;
+  font-size: 0.9375rem;
   font-weight: 900;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  position: relative;
   width: 100%;
 }
 main .card .text-area .payment-btn {
   background-color: hsl(245, 75%, 52%);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: hsl(225, 100%, 98%);
-  margin-bottom: 11px;
+  margin-bottom: 0.625rem;
+  position: relative;
   z-index: 1;
 }
 main .card .text-area .payment-btn:hover {

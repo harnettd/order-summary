@@ -1,0 +1,16 @@
+@import "../colors";
+@import "../fonts";
+
+.attribution {
+    font: {
+        family: $font-stack;
+        size: 0.75rem;
+        weight: $regular;
+    }
+
+    text-align: center;
+
+    &--link {
+        color: $footer-blue;
+    }
+}

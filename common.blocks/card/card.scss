@@ -1,0 +1,33 @@
+@import "../colors";
+@import "../fonts";
+
+.card {
+    background-color: $white;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 20rem;
+
+    &__hero-img {}
+
+    &__body {}
+
+    &__title {}
+
+    &__text {}
+
+    &__plan-row {}
+
+    &__plan-img {}
+
+    &__plan-cost-col {}
+
+    &__plan {}
+
+    &__cost {}
+
+    &__change-plan {}
+
+    &__payment-btn {}
+
+    &__cancel-btn {}
+}

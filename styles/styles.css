@@ -89,7 +89,7 @@ main .card .text-area .btn {
 }
 main .card .text-area .payment-btn {
   background-color: hsl(245, 75%, 52%);
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1rem 1rem hsl(225, 100%, 94%);
   color: hsl(225, 100%, 98%);
   margin-bottom: 0.625rem;
   position: relative;

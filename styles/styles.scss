@@ -110,7 +110,8 @@ main {
 
       .payment-btn {
         background-color: $bright-blue;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        // box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 1rem 1rem $pale-blue;
         color: $very-pale-blue;
         margin-bottom: 0.625rem;
         position: relative;

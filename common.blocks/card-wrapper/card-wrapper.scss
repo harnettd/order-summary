@@ -1,0 +1,12 @@
+@import "../breakpoints";
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10rem 0;
+
+    @media screen and (max-width: $mobile) {
+        padding: 5rem 0;
+    }
+}

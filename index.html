@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="root">
 
 <head>
   <meta charset="UTF-8">
@@ -14,47 +14,45 @@
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 
   <!-- local stylesheet -->
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="bundles/styles.css">
 
   <title>Frontend Mentor | Order summary card</title>
 
 </head>
 
-<body>
+<body class="page">
 
-  <main>
+  <main class="card-wrapper">
     <div class="card">
-      <div class="image-area">
-        <img class="image-hero" src="images/illustration-hero.svg" alt="">
-      </div>
-      <div class="text-area">
-        <h2 class="card-heading">Order Summary</h2>
-        <p class="card-main-text">
+      <img class="card__hero-img" src="images/illustration-hero.svg" alt="">
+      <div class="card__body">
+        <h1 class="card__title">Order Summary</h1>
+        <p class="card__text">
           You can now listen to millions of songs, audiobooks, and podcasts on any
           device anywhere you like!
         </p>
-        <div class="plan-row">
-          <div class="plan-col-image">
-            <img src="images/icon-music.svg" alt="">
+        <div class="card__plan-row">
+          <img class="card__plan-img" src="images/icon-music.svg" alt="">
+          <div class="card__plan-cost-col">
+            <div class="card__plan">Annual Plan</div>
+            <div class="card__cost">$59.99/year</div>
           </div>
-          <div class="plan-col-cost">
-            <div class="plan">Annual Plan</div>
-            <div class="cost">$59.99/year</div>
-          </div>
-          <div class="plan-col-change">
-            <a class="change-plan" href="#">Change</a>
+          <div>
+            <a class="card__change-plan" href="#">Change</a>
           </div>
         </div>
-        <button class="btn payment-btn">Proceed to Payment</button>
-        <button class="btn cancel-btn">Cancel Order</button>
+        <button class="card__payment-btn">Proceed to Payment</button>
+        <button class="card__cancel-btn">Cancel Order</button>
       </div>
     </div>
   </main>
 
   <footer>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.frontendmentor.io/profile/harnettd">Derek Harnett</a>.
+      Challenge by <a class="attribution attribution--link" href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank">Frontend Mentor</a>.
+      Coded by <a class="attribution attribution--link" href="https://www.frontendmentor.io/profile/harnettd">Derek
+        Harnett</a>.
     </div>
   </footer>
 

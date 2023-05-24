@@ -88,13 +88,20 @@
         color: $bright-blue;
 
         font: {
-            family: $font-stack;
             size: 0.8125rem;
             weight: $black;
         }
     }
 
+    &__change-plan:hover {
+        color: $bright-blue-hover;
+        text-decoration: none;
+    }
+
     &__payment-btn {
+        background-color: $bright-blue;
+        box-shadow: 0 1rem 1rem $pale-blue;
+        color: $very-pale-blue;
         border: none;
         border-radius: 0.75rem;
 
@@ -103,38 +110,35 @@
             weight: $black;
         }
 
-        padding: 1rem 0;
-        width: 100%;
-        background-color: $bright-blue;
-        box-shadow: 0 1rem 1rem $pale-blue;
-        color: $very-pale-blue;
         margin-bottom: 0.5rem;
+        padding: 1rem 0;
         position: relative;
+        width: 100%;
         z-index: 1;
     }
 
-    &__payment-btn--hover {
+    &__payment-btn:hover {
         background-color: $bright-blue-hover;
         cursor: pointer;
     }
 
     &__cancel-btn {
+        background-color: $white;
         border: none;
         border-radius: 0.75rem;
+        color: $desaturated-blue;
 
         font: {
             size: 1rem;
             weight: $black;
         }
 
+        margin-bottom: 0;
         padding: 1rem 0;
         width: 100%;
-        background-color: $white;
-        color: $desaturated-blue;
-        margin-bottom: 0;
     }
 
-    &__cancel-btn--hover {
+    &__cancel-btn:hover {
         color: $dark-blue;
         cursor: pointer;
     }

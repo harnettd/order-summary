@@ -4,10 +4,7 @@
 
 .page {
   background-color: hsl(225, 100%, 94%);
-  background-image: url("../design/mobile-design.jpg");
-  background-repeat: no-repeat;
   margin: 0;
-  opacity: 0.25;
 }
 
 .card-wrapper {
@@ -83,40 +80,43 @@
 }
 .card__change-plan {
   color: hsl(245, 75%, 52%);
-  font-family: "Red Hat Display", sans-serif;
   font-size: 0.8125rem;
   font-weight: 900;
 }
+.card__change-plan:hover {
+  color: hsl(245, 83%, 68%);
+  text-decoration: none;
+}
 .card__payment-btn {
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 1rem 1rem hsl(225, 100%, 94%);
+  color: hsl(225, 100%, 98%);
   border: none;
   border-radius: 0.75rem;
   font-size: 1rem;
   font-weight: 900;
-  padding: 1rem 0;
-  width: 100%;
-  background-color: hsl(245, 75%, 52%);
-  box-shadow: 0 1rem 1rem hsl(225, 100%, 94%);
-  color: hsl(225, 100%, 98%);
   margin-bottom: 0.5rem;
+  padding: 1rem 0;
   position: relative;
+  width: 100%;
   z-index: 1;
 }
-.card__payment-btn--hover {
+.card__payment-btn:hover {
   background-color: hsl(245, 83%, 68%);
   cursor: pointer;
 }
 .card__cancel-btn {
+  background-color: hsl(0, 0%, 100%);
   border: none;
   border-radius: 0.75rem;
+  color: hsl(224, 23%, 55%);
   font-size: 1rem;
   font-weight: 900;
+  margin-bottom: 0;
   padding: 1rem 0;
   width: 100%;
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(224, 23%, 55%);
-  margin-bottom: 0;
 }
-.card__cancel-btn--hover {
+.card__cancel-btn:hover {
   color: hsl(223, 47%, 23%);
   cursor: pointer;
 }

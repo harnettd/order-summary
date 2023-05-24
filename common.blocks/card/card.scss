@@ -14,20 +14,33 @@
     }
 
     &__body {
+        font-family: $font-stack;
         padding: 1.9rem 1.5rem 1rem;
+        text-align: center;
     }
 
     &__title {
         color: $dark-blue;
-        font-weight: $black;
-        margin-bottom: 1rem;
+
+        font: {
+            size: 1.4rem;
+            weight: $black;
+        }
+
+        margin: 0 auto 1.1rem;
     }
 
     &__text {
         color: $desaturated-blue;
-        font-weight: $medium;
-        line-height: 1.5;
-        margin-bottom: 1.625rem;
+
+        font: {
+            size: 0.9375rem;
+            weight: $medium;
+        }
+
+        line-height: 1.65;
+        margin: 0 auto 1.625rem;
+        padding: 0 0.75rem;
     }
 
     &__plan-row {
@@ -36,8 +49,8 @@
         border-radius: 1rem;
         display: flex;
         flex-direction: row;
-        justify-content: start;
-        margin-bottom: 1.5rem;
+        justify-content: space-between;
+        margin-bottom: 1.7rem;
         padding: 0.875rem 1rem;
     }
 
@@ -45,13 +58,16 @@
         display: block;
     }
 
-    &__plan-cost-col {}
+    &__plan-cost-col {
+        margin: 0 0 0 -2rem;
+    }
 
     &__plan {
         color: $dark-blue;
+
         font: {
             family: $font-stack;
-            size: 0.875rem;
+            size: 0.9rem;
             weight: $black;
         }
 
@@ -63,7 +79,7 @@
 
         font: {
             family: $font-stack;
-            size: 0.875rem;
+            size: 0.9rem;
             weight: $medium;
         }
     }
@@ -81,15 +97,18 @@
     &__payment-btn {
         border: none;
         border-radius: 0.75rem;
-        font-size: 0.9375rem;
-        font-weight: 900;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
+
+        font: {
+            size: 1rem;
+            weight: $black;
+        }
+
+        padding: 1rem 0;
         width: 100%;
         background-color: $bright-blue;
         box-shadow: 0 1rem 1rem $pale-blue;
         color: $very-pale-blue;
-        margin-bottom: 0.625rem;
+        margin-bottom: 0.5rem;
         position: relative;
         z-index: 1;
     }
@@ -97,15 +116,18 @@
     &__payment-btn--hover {
         background-color: $bright-blue-hover;
         cursor: pointer;
-      }
+    }
 
     &__cancel-btn {
         border: none;
         border-radius: 0.75rem;
-        font-size: 0.9375rem;
-        font-weight: 900;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
+
+        font: {
+            size: 1rem;
+            weight: $black;
+        }
+
+        padding: 1rem 0;
         width: 100%;
         background-color: $white;
         color: $desaturated-blue;
@@ -115,5 +137,5 @@
     &__cancel-btn--hover {
         color: $dark-blue;
         cursor: pointer;
-      }
+    }
 }

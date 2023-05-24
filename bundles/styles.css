@@ -4,18 +4,21 @@
 
 .page {
   background-color: hsl(225, 100%, 94%);
+  background-image: url("../design/mobile-design.jpg");
+  background-repeat: no-repeat;
   margin: 0;
+  opacity: 0.25;
 }
 
 .card-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 10rem 0;
+  padding: 4.45rem 0;
 }
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 575px) {
   .card-wrapper {
-    padding: 5rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -31,18 +34,23 @@
   width: 100%;
 }
 .card__body {
+  font-family: "Red Hat Display", sans-serif;
   padding: 1.9rem 1.5rem 1rem;
+  text-align: center;
 }
 .card__title {
   color: hsl(223, 47%, 23%);
+  font-size: 1.4rem;
   font-weight: 900;
-  margin-bottom: 1rem;
+  margin: 0 auto 1.1rem;
 }
 .card__text {
   color: hsl(224, 23%, 55%);
+  font-size: 0.9375rem;
   font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: 1.625rem;
+  line-height: 1.65;
+  margin: 0 auto 1.625rem;
+  padding: 0 0.75rem;
 }
 .card__plan-row {
   align-items: center;
@@ -50,24 +58,27 @@
   border-radius: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  margin-bottom: 1.7rem;
   padding: 0.875rem 1rem;
 }
 .card__plan-img {
   display: block;
 }
+.card__plan-cost-col {
+  margin: 0 0 0 -2rem;
+}
 .card__plan {
   color: hsl(223, 47%, 23%);
   font-family: "Red Hat Display", sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   font-weight: 900;
   margin-bottom: 0.25rem;
 }
 .card__cost {
   color: hsl(224, 23%, 55%);
   font-family: "Red Hat Display", sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 .card__change-plan {
@@ -79,15 +90,14 @@
 .card__payment-btn {
   border: none;
   border-radius: 0.75rem;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   font-weight: 900;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding: 1rem 0;
   width: 100%;
   background-color: hsl(245, 75%, 52%);
   box-shadow: 0 1rem 1rem hsl(225, 100%, 94%);
   color: hsl(225, 100%, 98%);
-  margin-bottom: 0.625rem;
+  margin-bottom: 0.5rem;
   position: relative;
   z-index: 1;
 }
@@ -98,10 +108,9 @@
 .card__cancel-btn {
   border: none;
   border-radius: 0.75rem;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   font-weight: 900;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding: 1rem 0;
   width: 100%;
   background-color: hsl(0, 0%, 100%);
   color: hsl(224, 23%, 55%);

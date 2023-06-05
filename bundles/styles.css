@@ -4,7 +4,15 @@ html {
 
 .page {
   background-color: hsl(225, 100%, 94%);
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 0;
+}
+@media screen and (min-width: 575px) {
+  .page {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
 }
 
 .card-wrapper {
@@ -13,22 +21,12 @@ html {
   height: 100vh;
   flex-direction: row;
   justify-content: center;
-  background-image: url("../design/mobile-design.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-@media screen and (min-width: 575px) {
-  .card-wrapper {
-    background-image: url("../design/desktop-design.jpg");
-  }
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  border: 1px solid black;
   border-radius: 1.25rem;
   box-sizing: border-box;
-  opacity: 0.5;
   overflow: hidden;
   position: relative;
   width: 20.5rem;

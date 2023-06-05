@@ -1,6 +1,14 @@
+@import "../breakpoints";
 @import "../colors";
 
 .page {
-    background-color: $pale-blue;
-    margin: 0;
+  background-color: $pale-blue;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+
+  @media screen and (min-width: $mobile) {
+    background-image: url("../images/pattern-background-desktop.svg");
   }
+}

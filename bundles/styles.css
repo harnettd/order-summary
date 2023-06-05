@@ -5,6 +5,15 @@
 .page {
   background-color: hsl(225, 100%, 94%);
   margin: 0;
+  background-image: url("../design/mobile-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+@media screen and (min-width: 575px) {
+  .page {
+    background-image: url("../design/desktop-design.jpg");
+  }
 }
 
 .card-wrapper {
@@ -22,24 +31,41 @@
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 1.25rem;
+  box-sizing: border-box;
   overflow: hidden;
   position: relative;
-  width: 20.375rem;
+  width: 20rem;
+}
+@media screen and (min-width: 575px) {
+  .card {
+    width: 28.2rem;
+  }
 }
 .card__hero-img {
   display: block;
   width: 100%;
 }
 .card__body {
+  box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   padding: 1.9rem 1.5rem 1rem;
   text-align: center;
+}
+@media screen and (min-width: 575px) {
+  .card__body {
+    padding: 2.8rem 3rem 1rem;
+  }
 }
 .card__title {
   color: hsl(223, 47%, 23%);
   font-size: 1.4rem;
   font-weight: 900;
   margin: 0 auto 1.1rem;
+}
+@media screen and (min-width: 575px) {
+  .card__title {
+    font-size: 1.75rem;
+  }
 }
 .card__text {
   color: hsl(224, 23%, 55%);
@@ -48,6 +74,11 @@
   line-height: 1.65;
   margin: 0 auto 1.625rem;
   padding: 0 0.75rem;
+}
+@media screen and (min-width: 575px) {
+  .card__text {
+    font-size: 1rem;
+  }
 }
 .card__plan-row {
   align-items: center;
@@ -59,11 +90,22 @@
   margin-bottom: 1.7rem;
   padding: 0.875rem 1rem;
 }
+@media screen and (min-width: 575px) {
+  .card__plan-row {
+    margin-bottom: 2.6rem;
+    padding: 1rem 1.65rem;
+  }
+}
 .card__plan-img {
   display: block;
 }
 .card__plan-cost-col {
   margin: 0 0 0 -2rem;
+}
+@media screen and (min-width: 575px) {
+  .card__plan-cost-col {
+    margin: 0 0 0 -4.5rem;
+  }
 }
 .card__plan {
   color: hsl(223, 47%, 23%);
@@ -72,16 +114,31 @@
   font-weight: 900;
   margin-bottom: 0.25rem;
 }
+@media screen and (min-width: 575px) {
+  .card__plan {
+    font-size: 1rem;
+  }
+}
 .card__cost {
   color: hsl(224, 23%, 55%);
   font-family: "Red Hat Display", sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
 }
+@media screen and (min-width: 575px) {
+  .card__cost {
+    font-size: 1rem;
+  }
+}
 .card__change-plan {
   color: hsl(245, 75%, 52%);
   font-size: 0.8125rem;
   font-weight: 900;
+}
+@media screen and (min-width: 575px) {
+  .card__change-plan {
+    font-size: 0.87rem;
+  }
 }
 .card__change-plan:hover {
   color: hsl(245, 83%, 68%);
@@ -100,6 +157,11 @@
   position: relative;
   width: 100%;
   z-index: 1;
+}
+@media screen and (min-width: 575px) {
+  .card__payment-btn {
+    margin-bottom: 1rem;
+  }
 }
 .card__payment-btn:hover {
   background-color: hsl(245, 83%, 68%);

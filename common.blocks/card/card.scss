@@ -3,11 +3,13 @@
 
 .card {
     background-color: $white;
+    border: 1px solid black;
     border-radius: 1.25rem; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    opacity: 0.5; 
     overflow: hidden;
     position: relative;
-    width: 20rem;
+    width: 20.5rem;
 
     @media screen and (min-width: $mobile) {
         width: 28.2rem;

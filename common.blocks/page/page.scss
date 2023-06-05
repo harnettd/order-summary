@@ -1,16 +1,6 @@
-@import "../breakpoints";
 @import "../colors";
 
 .page {
     background-color: $pale-blue;
     margin: 0;
-
-    background-image: url("../design/mobile-design.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-
-    @media screen and (min-width: $mobile) {
-      background-image: url("../design/desktop-design.jpg");
-    }
   }

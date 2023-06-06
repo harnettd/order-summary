@@ -41,15 +41,16 @@ Users should be able to:
 
 - HTML
 - CSS
-- Sass
 - Flexbox
 - Mobile-first workflow
+- Sass
+- BEM
 
 ### What I learned
 
 In completing this challenge, I learned how to:
 
-- shadow, *e.g.,*
+- add a box-shadow to a button, *e.g.,*
 ```css
 .payment-btn {
   box-shadow: 0 1rem 1rem $pale-blue;
@@ -68,12 +69,19 @@ In completing this challenge, I learned how to:
 }
 ```
 
+- name classes according to BEM (block, element, modifier) conventions
+
 ### Continued development
+
+- There are some aspects of the BEM methodology such as redefinition levels and declarations that I didn't need to learn about for this project. However, I suspect that these ideas will come in handy for larger projects. 
+
+- To build this project, I used a very simple Makefile. I know that there are alternatives better suited to web development such as Gulp. I intend to learn how to use Gulp on a future project.
 
 ### Useful resources
 
 - [mdn web docs: box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This is where I learned how to add a box-shadow to an element.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+- [Methodology/BEM](https://en.bem.info/methodology/) - This is an excellent resource where you can learn about BEM class-naming conventions and file structure. Other BEM-related topics are covered as well.
 
 ## Author
 

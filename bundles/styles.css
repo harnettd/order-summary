@@ -5,8 +5,9 @@ html {
 .page {
   background-color: hsl(225, 100%, 94%);
   background-image: url("../images/pattern-background-mobile.svg");
-  background-repeat: no-repeat;
   background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
   margin: 0;
 }
 @media screen and (min-width: 575px) {
